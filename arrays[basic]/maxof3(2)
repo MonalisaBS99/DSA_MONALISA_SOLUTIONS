@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cin >> a;
+    cin >> b;
+    cin >> c;
+    int i;
+
+    // code here
+    int ar[3];
+    ar[1]=b;
+    ar[2]=c;
+    ar[0]=a;
+    int max=ar[0];
+    for(i=0;i<3;i++)
+    {
+        if(max<ar[i])
+        max=ar[i];
+    }
+    cout<<max;
+
+    return 0;
+}
