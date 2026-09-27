@@ -1,0 +1,22 @@
+class Solution {
+  public:
+    vector<int> fibonacciNumbers(int n) {
+        // code here
+        vector<int>res;
+        if(n==1)
+        res.push_back(0);
+        else{
+        
+        res.push_back(0);
+       
+        res.push_back(1);
+        for(int i=2;i<n;i++)
+        {
+            res.push_back(res[i-1]+res[i-2]);
+        }
+        return res;
+        
+        
+    }
+    }
+};
