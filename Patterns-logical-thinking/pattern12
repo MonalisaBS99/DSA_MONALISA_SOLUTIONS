@@ -1,0 +1,19 @@
+class Solution {
+public:
+    void pattern11(int n) {
+int i,j;//loop variables
+int start;//to start with 
+for(i=1;i<=n;i++)
+{  if(i%2==0)
+     start=0;
+     else
+     start=1;
+    for(j=1;j<=i;j++)
+    {
+        cout<<start<<" ";
+        start=(start-1)*(-1);
+    }
+    cout<<endl;
+}
+    }
+};
