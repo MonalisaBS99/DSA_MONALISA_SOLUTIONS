@@ -4,7 +4,7 @@ void p3(int n)
     {
         for(int j=1;j<=i;j++)
         {
-            cout<<j;
+            cout<<j;//print j 
         }
         cout<<endl;
     }
@@ -12,6 +12,6 @@ void p3(int n)
 class Solution {
 public:
     void pattern3(int n) {
-p3(n);
+p3(n);//function call
     }
 };
